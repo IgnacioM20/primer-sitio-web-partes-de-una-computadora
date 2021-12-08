@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/maxresdefault.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.container{
+    width: 1280px;
+    height: 720px;
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+   justify-content:flex stretch;
+   align-items:flex-start;
+
+}
+.item1{
+    align-items: center;
+    text-align: center;
+    width: 1150px;
+    padding:25px;
+    margin: 20px;
+    border:solid 5px white;
+    color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+.item2{
+    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    width: 1165px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    background:rgb(0, 255, 213);
+    color:rgb(219, 212, 212);
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+.navenlace{
+    display: inline-block;
+    background:rgb(0, 255, 221);
+    padding: 11px 30px;
+    text-decoration:none;
+}
+.navenlace:hover{
+    background: rgba(0, 238, 255, 0.527);
+}
+ul{
+margin-left:25px;
+}
+.item3{
+    border-radius: 4px;
+    background: white;
+    width: 850px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color:black;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.computadora{
+    color:rgb(219, 212, 212);
+    font-size:40px;
+}
+.inicio, .hardware, .software, .perifericos{
+    color:rgb(219, 212, 212);
+    font-size: 25px;
+}
+.item4{
+    border-radius: 4px;
+    background: white;
+    width: 300px;
+    height:707px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:5px;
+    color:black;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.item5 {
+    border-radius: 4px;
+    background-color:white;
+    width: 1165px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color:black;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.card{
+height: 500px;
+width: 378px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 10px;
+margin-right: 5px;
+}
+
+a:link {
+    color:#ffffff;
+}
+
+a:visited {
+    color:#ffffff;
+}
+
+a:focus {
+    color:#ffffff
+}
+
+a:hover {
+    color:blue;
+}
+a:active {
+    box-shadow: 3px 3px 0 #050836;
+  top: 3px;
+}
